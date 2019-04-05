@@ -10,8 +10,6 @@ CREATE TABLE table_name
     ....
 );
 
-## Examples ##
-
 create table TEST (
     ID integer,
     NAME varchar(30)
@@ -38,15 +36,15 @@ create table COUNTRY (
 
 ###############################################################################
 #                               CREATE TABLE LIKE
-# Create a copy of a table
 ###############################################################################
+# Create a copy of a table
 
 CREATE TABLE newTable LIKE pets
 
 ###############################################################################
 #                               CREATE TABLE AS
-# Create a table from the result set
 ###############################################################################
+# Create a table from the result set
 
 CREATE TABLE newTable as
             (SELECT * 
